@@ -1,0 +1,12 @@
+{
+  "J" :{
+  "tag_line": "Python Tutorial",
+    "tagline_content": "Python Tutorial for beginners and professional.This Python tutorial helps you to learn python.",
+    "local_server": "True",
+    "local_url":"mysql+pymysql://root:@localhost/tutorial",
+    "prod_url":"mysql+pymysql://root:@localhost/tutorial",
+    "username": "ishu",
+    "password": "123",
+    "post_no":2
+}
+}

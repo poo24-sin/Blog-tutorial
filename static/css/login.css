@@ -1,0 +1,130 @@
+/* Navigation bar */
+.nav-login
+ {   
+    display: flex;
+    position: sticky;
+    justify-content:space-between;
+    top:0px;
+    width: auto;
+ }
+ .nav-login::before
+{
+    content: "";
+    position: absolute;
+    top:0px;
+    height:60px;
+    width:100%;
+    z-index: -1;
+    background-color:rgb(151, 141, 142);
+    opacity: 0.4;
+       
+}
+/* Menu list */
+.nav-login ul
+{
+    display: flex;
+    width: auto;
+}
+.nav-login ul li
+{
+    list-style: none;
+    padding: 20px 5px;
+}
+.nav-login ul li a
+{
+    text-decoration: none;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.2rem;
+    color: rgb(9, 48, 148);
+    font-weight: bold;
+    border-radius: 15px;
+    padding:3px 20px;
+}
+.nav-login ul li a:hover
+{
+    background-color: rgb(0, 0, 0);
+    color: rgb(241, 241, 241);
+}
+.nav-login ul li a:active
+{
+    background-color: rgb(197, 18, 122);
+    color: rgb(43, 43, 63);
+}
+
+
+/* Login Form */
+.home-login
+{
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2px 50px;
+}
+.home-login::before{
+  width: 100%;
+  height:450px;
+ 
+}
+.home #form-container
+{
+    text-align: center;
+    margin-top:83px;
+    height: 216px;
+}
+#form-container{
+    /* border: 2px solid brown; */
+    height: 200px;
+    background-color: rgb(3, 19, 65);
+    opacity:0.89;
+    margin: auto;
+    border-radius: 10px;
+
+}
+#form-container form{
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* Input form  */
+
+#form-container form input{
+    margin: 5px 30px;
+    padding: 8px 15px;
+    border: 2px solid rgb(5, 7, 48);
+    border-radius: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1rem;
+
+}
+/* Input form  hover */
+#form-container form input:hover{
+  background-color: rgb(61, 56, 57);
+  color: rgb(62, 217, 238);
+  
+}
+
+/* Login Button in input form */
+#form-container form .btn{
+    margin:auto;
+    padding: 8px 15px;
+    width: 16rem;
+    border: 2px solid  rgb(3, 19, 65);
+}
+#form-container form .btn:hover{
+  background-color: rgba(139, 9, 74, 0.342);
+  color: rgb(234, 234, 238);
+}
+#form-container form .btn:active{
+  background-color: rgb(119, 69, 94);
+  color: rgb(234, 234, 238);
+}
+
+/* h-secondary */
+.h-secondary{
+    font-size: 2rem;
+    color: aqua;
+}
+

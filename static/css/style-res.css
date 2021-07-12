@@ -1,0 +1,212 @@
+/* body{
+    margin: 0px;
+    padding: 0px;
+    
+} */
+.navbar::before{
+    height: 136px;
+}
+
+#nav ul{
+    flex-direction: column;
+}
+
+#nav ul li{
+    padding:6px;
+}
+#nav ul li a{
+    font-size: 1.1rem;
+    color: bisque;
+    border-radius: none;
+    padding: 1px;
+    font-weight: lighter;
+}
+#nav ul li a:hover{
+    color: red;
+    background-color:none;
+}
+#nav ul li a:active{
+    color: honeydew;
+    background-color: none;
+
+}
+.button-container{
+    padding: 15px 5px;
+
+}
+.home{
+  height: 138px;  
+}
+
+.home::before{
+    height: 280px;
+}
+.home div{
+    height:85px;
+    width: 275px;
+}
+.h-primary{
+    font-size: 1.5rem;
+    padding: 5px 1px;
+    /* margin: 16px 6px; */
+    
+}
+.home p{
+    padding: 5px 0px;
+    font-size:12px;
+    line-height: 17px;
+}
+/* pagination */
+.no_of_page .btn{
+    margin: 2px 12px;
+}
+
+/* post section */
+#content-box{
+    margin-top: 30px;
+}
+
+/* About section */
+.about-section{
+    margin:60px 2px;
+    background-color:#f1eeee45;
+}
+.about-section #content{
+    font-size: 11px;
+    color: #5607bd;
+   
+}
+/* contact */
+
+.contact{
+    margin: 40px 3px;
+}
+.contact-heading{
+    margin-top: 25px;
+    color: rgb(2, 66, 75);
+}
+.contact div form{
+    padding: 19px 7px;
+    margin: 20px 2px;
+}
+/* Dashboard */
+#section{
+    width:100%;
+    margin-top: 30px;
+}
+#Table{
+    overflow-x: auto;
+}
+#dash-table{
+   width:500px;
+   border-spacing:0;
+   height: 30px;
+}
+th,td{
+    font-size: 12px;
+    padding: 2px 5px;
+}
+
+tbody tr td a .btn{
+    width:50px;
+    font-size: 10px;
+}
+/* Tutorial Post.. */
+#post_container{
+    margin: 50px 2px;
+}
+#post_container .container{
+    margin: 15px 2px;
+}
+#post_container .container h1{
+    margin: 10px 3px;
+    font-size: 20px;
+}
+#post_container .container p{
+    font-size:12px;
+}
+/* edit section */
+.edit_section{
+    margin-top: 50px;
+    background-color: black;
+    height: 350px;
+}
+.edit_section h1{
+    font-size: 1rem;
+}
+.add label{
+    font-size: 12px;
+    margin: 3px 15px;
+}
+.add input[type="text"]
+{
+    margin: 3px 16px;
+    padding: 4px 12px;
+    font-size: 13px;
+}
+.add #content{
+    margin:3px 16px;
+    padding: 4px  12px;
+    font-size: 12px;
+
+}
+.add .add_btn{
+    background-color: rgb(38 38 43);
+}
+.btn{
+    background-color: rgb(38 38 43);
+}
+footer{
+    height: 80px;
+    font-size: 12px;
+    margin-top: 61px;
+}
+/* Login form */
+.nav-login{
+    justify-content:none;
+}
+.nav-login::before{
+    height: 66px;
+}
+.nav-login ul{
+    padding: 2px 6px;
+    
+}
+.nav-login ul li{
+    padding:15px 0px;
+}
+.nav-login ul li a{
+    font-size: 12px;
+    padding: 2px 10px;   
+}
+#form-container form{
+    height: 135px;
+}
+#form-container form input{
+    margin:4px 11px;
+    padding: 6px 12px;
+    font-size: 12px;
+}
+#form-container form .btn{
+    padding: 7px 1px;
+    width: 13.5rem;
+}
+.button{
+    padding: 15px 8px;
+
+}
+.home #form-container{
+    margin-top: 200px;
+}
+#form-container{
+    margin: 3px 5px;
+    width:240px;
+}
+.h-secondary{
+    font-size: 1.1rem;
+    margin: 4px 0px;
+}
+.login-footer{
+    height: 55px;
+    margin-top: 359px;
+}

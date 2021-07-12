@@ -1,0 +1,39 @@
+{% extends "layout.html" %}
+{% block body %}
+
+<!-- Section  -->
+<section class="contact">
+    <h1 class="f-primary contact-heading">Contact Us</h1>
+    <div>
+        <form action="/contact" method="POST">
+            <label for="name">Name</label>
+            <input text="text" name="name" id="name" placeholder="Enter Your Name.">
+
+            <label for="msg">Write Your Msg</label>
+            <textarea name="msg" id="msg" placeholder="Enter Your Name."></textarea>
+
+            <button type="submit" class="submit_btn">Submit</button>
+
+
+
+        </form>
+    </div>
+
+
+</section>
+
+
+
+<footer>
+    <div class="bottom">
+        &copy;www.PythonTutorial.com.
+    </div>
+</footer>
+
+{% endblock %}
+
+
+
+</body>
+
+</html>

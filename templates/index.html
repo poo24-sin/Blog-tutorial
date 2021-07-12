@@ -1,0 +1,40 @@
+{% extends "layout.html" %}
+{% block body %}
+
+    <!-- Section  -->
+    <section class="post">
+        {% for py_tut in py_tut %}
+        <div id="content-box">
+            
+              <a href="/tutorial/{{py_tut.slug}}">
+              <h2>{{py_tut.py_intro}}</h2>
+              </a>
+             <p>
+              {{py_tut.py_content[0:103]}}...
+            </p>
+        </div>
+        {% endfor %}
+
+    
+    </section>
+    <div class="no_of_page">
+        {% if number!=0 %}
+          <a href="{{prev}}" class="btn">&larr; Previous</a>
+        {% endif %}
+        <a href="{{next}}" class="btn">Next&rarr;</a> 
+    </div>
+
+
+    <footer>
+        <div class="bottom">
+            &copy;www.PythonTutorial.com.
+        </div>
+    </footer>
+      
+{% endblock %}
+</body>
+
+</html>
+
+
+    
