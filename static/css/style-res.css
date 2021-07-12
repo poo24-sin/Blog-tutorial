@@ -1,8 +1,3 @@
-/* body{
-    margin: 0px;
-    padding: 0px;
-    
-} */
 .navbar::before{
     height: 136px;
 }
@@ -48,7 +43,7 @@
 .h-primary{
     font-size: 1.5rem;
     padding: 5px 1px;
-    /* margin: 16px 6px; */
+   
     
 }
 .home p{

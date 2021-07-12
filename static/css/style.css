@@ -105,7 +105,7 @@ html
 }
 
 
-/* index.html for content section*/
+/* index.html content section*/
 
 .section
 {
@@ -465,6 +465,7 @@ footer{
 footer .bottom{
     color: white;
 }
+/* login.html */
 .login-footer{
     height: 145px;
 }
